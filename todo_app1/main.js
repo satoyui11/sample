@@ -1,7 +1,7 @@
-// タスクのデータを保持する配列
+
 let tasks = [];
 
-// タスク一覧を表示
+
 function renderTasks() {
     const taskList = document.getElementById('task-list'); // タスクリストの表示部分を取得
     taskList.innerHTML = ''; // 一旦、リストを空にする
